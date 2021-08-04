@@ -1,0 +1,19 @@
+{
+    "name": "phplogictest2/calendar",
+    "require": {
+        "php":">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhpLogictest\\Test\\":"src/model"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpLogictest\\Test\\":"tests"
+        }
+    }
+}
